@@ -6,7 +6,7 @@ from yachalk import chalk
 # Usage: python ssti.py 
 
 injectionText="mokoloto"
-urlsWithParams="/root/hacking/isoauto/massAutomation/urlsWithParameters.txt"
+urlsWithParams="$YOURPATHHERE/massAutomation/urlsWithParameters.txt"
 
 # I added the payloads for most popular templates
 payloads=['{{123*2}}[[123*2]]','{{123*2}}',"{{123*'2'}}",'%23{123*2}','*{123*2}','<%= 123 * 2 %>','${123*2}','${{123*2}}','@(123*2)','#{123*2}','#{ 123 * 2 }','{{123*2}}[[123*2]]','<%= 123*2 %>',"{{123*'2'}}"]
